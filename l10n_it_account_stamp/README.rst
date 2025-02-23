@@ -144,12 +144,15 @@ Authors
 Contributors
 ------------
 
--  Lorenzo Battistini <https://github.com/eLBati>
+-  Lorenzo Battistini
+   <`https://github.com/eLBati <https://github.com/eLBati>`__>
 -  Sergio Corato
 -  Ermanno Gnan
 -  Enrico Ganzaroli
--  Sergio Zanchetta <https://github.com/primes2h>
--  Marco Colombo <https://github.com/TheMule71>
+-  Sergio Zanchetta
+   <`https://github.com/primes2h <https://github.com/primes2h>`__>
+-  Marco Colombo
+   <`https://github.com/TheMule71 <https://github.com/TheMule71>`__>
 -  Gianmarco Conte <gconte@dinamicheaziendali.it>
 -  Giovanni Serra <giovanni@gslab.it>
 -  `Aion Tech <https://aiontech.company/>`__:
