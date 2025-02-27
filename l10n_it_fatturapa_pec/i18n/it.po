@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-08-31 12:06+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
+"PO-Revision-Date: 2025-02-28 02:06+0000\n"
+"Last-Translator: Nicola Clemente <nickdellaclemodoo@gmail.com>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Accettato"
 #. module: l10n_it_fatturapa_pec
 #: model:res.groups,name:l10n_it_fatturapa_pec.group_force_e_inv_export_state
 msgid "Allow to force e-invoice export state"
-msgstr ""
+msgstr "Consenti di forzare lo stato di esportazione della fattura elettronica"
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.ui.view,arch_db:l10n_it_fatturapa_pec.wizard_fatturapa_send_pec_view
@@ -87,7 +87,7 @@ msgstr "Stato e-fattura"
 #. module: l10n_it_fatturapa_pec
 #: model:ir.model.fields,field_description:l10n_it_fatturapa_pec.field_res_company_e_invoice_user_id
 msgid "E-invoice creator"
-msgstr ""
+msgstr "Creatore di fatture elettroniche"
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.ui.view,arch_db:l10n_it_fatturapa_pec.view_account_invoice_fatturapa_out_pec_filter
@@ -117,7 +117,7 @@ msgstr "Errore"
 #. module: l10n_it_fatturapa_pec
 #: model:ir.model,name:l10n_it_fatturapa_pec.model_wizard_export_fatturapa
 msgid "Export E-invoice"
-msgstr ""
+msgstr "Esporta Fattura elettronica"
 
 #. module: l10n_it_fatturapa_pec
 #: code:addons/l10n_it_fatturapa_pec/models/fetchmail.py:184
@@ -129,7 +129,7 @@ msgstr "Ripristino server PEC fetchmail [%s]"
 #: code:addons/l10n_it_fatturapa_pec/models/fatturapa_attachment_out.py:73
 #, python-format
 msgid "File content and file name are mandatory"
-msgstr ""
+msgstr "Il contenuto e il nome del file sono obbligatori"
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.model.fields,field_description:l10n_it_fatturapa_pec.field_wizard_fatturapa_send_pec_id
@@ -216,12 +216,12 @@ msgstr "Server POP/IMAP"
 #. module: l10n_it_fatturapa_pec
 #: model:ir.ui.view,arch_db:l10n_it_fatturapa_pec.wizard_export_fatturapa_form_view_regenerate
 msgid "Re-Export"
-msgstr ""
+msgstr "Ri-esporta"
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.ui.view,arch_db:l10n_it_fatturapa_pec.view_invoice_fatturapa_out_pec_form
 msgid "Re-Export E-invoice"
-msgstr ""
+msgstr "Ri-esporta fattura elettronica"
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.actions.act_window,name:l10n_it_fatturapa_pec.action_wizard_export_fatturapa_regenerate
@@ -304,7 +304,7 @@ msgstr "Stato"
 #. module: l10n_it_fatturapa_pec
 #: model:ir.model.fields,field_description:l10n_it_fatturapa_pec.field_account_config_settings_e_invoice_user_id
 msgid "Supplier e-invoice creator"
-msgstr ""
+msgstr "Creatore di fatture elettroniche fornitori"
 
 #. module: l10n_it_fatturapa_pec
 #: code:addons/l10n_it_fatturapa_pec/wizard/wizard_export_fatturapa.py:49
@@ -313,17 +313,21 @@ msgid ""
 "The invoice cannot be regenerated because doesn't have a e-invoice "
 "attachment associated to it"
 msgstr ""
+"La fattura non può essere rigenerata perché non ha un allegato di fattura "
+"elettronica associato ad essa"
 
 #. module: l10n_it_fatturapa_pec
 #: code:addons/l10n_it_fatturapa_pec/wizard/wizard_export_fatturapa.py:39
 #, python-format
 msgid "The method can be called with a valid active_id"
-msgstr ""
+msgstr "Il metodo può essere chiamato con un active_id valido"
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.model.fields,help:l10n_it_fatturapa_pec.field_res_company_e_invoice_user_id
 msgid "This user will be used at supplier e-invoice creation."
 msgstr ""
+"Questo utente verrà utilizzato durante la creazione della fattura "
+"elettronica del fornitore."
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.model.fields,help:l10n_it_fatturapa_pec.field_account_config_settings_e_invoice_user_id
@@ -331,6 +335,9 @@ msgid ""
 "This user will be used at supplier e-invoice creation. This setting is "
 "relevant in multi-company environments"
 msgstr ""
+"Questo utente verrà utilizzato durante la creazione della fattura "
+"elettronica del fornitore. Questa impostazione è rilevante negli ambienti "
+"multiaziendali"
 
 #. module: l10n_it_fatturapa_pec
 #: model:ir.model,name:l10n_it_fatturapa_pec.model_wizard_fatturapa_send_pec
