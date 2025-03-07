@@ -38,6 +38,25 @@ class ResPartnerBankAdd(models.Model):
         help="Identification Code of the Company in the Interbank System.",
     )
 
+    def _check_protected_records(self):
+        protected_records = (
+            self.env["account.move"]
+            .search([("riba_partner_bank_id", "in", self.ids)])
+            .mapped("riba_partner_bank_id")
+        )
+        if protected_records:
+            message = _(
+                "The bank accounts with accreditation code "
+                f"{[bank.acc_number for bank in protected_records]}"
+                " cannot be deleted as they are used in invoices."
+                " If possible, archive the bank account"
+            )
+            raise UserError(message)
+
+    def unlink(self):
+        self._check_protected_records()
+        return super(ResPartnerBankAdd, self).unlink()
+
 
 class AccountMove(models.Model):
     _inherit = "account.move"
@@ -283,6 +302,10 @@ class AccountMove(models.Model):
                 )
                 invoice._recompute_tax_lines()
             invoice.is_unsolved = False
+
+            # if the bank account is archived do not allow the use in the new invoice
+            if not invoice.riba_partner_bank_id.active:
+                invoice.riba_partner_bank_id = False
         return invoice
 
     def get_due_cost_line_ids(self):
