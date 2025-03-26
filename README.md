@@ -21,7 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[l10n_it_account_stamp](l10n_it_account_stamp/) | 18.0.1.0.0 |  | Gestione automatica dell'imposta di bollo
+[l10n_it_account_stamp](l10n_it_account_stamp/) | 18.0.1.1.0 |  | Gestione automatica dell'imposta di bollo
 
 [//]: # (end addons)
 
