@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[l10n_it_abicab](l10n_it_abicab/) | 18.0.1.0.0 | [![Borruso](https://github.com/Borruso.png?size=30px)](https://github.com/Borruso) | Base Bank ABI/CAB codes
 [l10n_it_account_stamp](l10n_it_account_stamp/) | 18.0.1.1.0 |  | Gestione automatica dell'imposta di bollo
 
 [//]: # (end addons)
