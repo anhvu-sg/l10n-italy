@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-30 21:25+0000\n"
-"PO-Revision-Date: 2025-03-18 11:53+0000\n"
+"PO-Revision-Date: 2025-04-11 11:24+0000\n"
 "Last-Translator: Francesco Foresti <francesco.foresti@ooops404.com>\n"
 "Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
 "Language: it\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #. module: l10n_it_ricevute_bancarie
 #: model_terms:ir.ui.view,arch_db:l10n_it_ricevute_bancarie.view_account_config_settings_riba
@@ -1094,11 +1094,13 @@ msgstr "Non è stata specificata una banca per la fattura %s"
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/models/account.py:0
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Non è possibile emettere una riba legata ad un IBAN archiviato; riga: %s , "
 "contatto: %s"
 msgstr ""
+"Non è possibile emettere una riba legata ad un IBAN archiviato; riga: %s , "
+"contatto: %s"
 
 #. module: l10n_it_ricevute_bancarie
 #: model:ir.model.fields,field_description:l10n_it_ricevute_bancarie.field_riba_distinta_line__sequence
@@ -1474,6 +1476,8 @@ msgid ""
 "The bank accounts with accreditation code {acc_codes}s cannot be deleted as "
 "they are used in invoices. If possible, archive the bank account"
 msgstr ""
+"I conti bancari con codice {acc_codes}s non possono essere eliminati perchè "
+"utilizzati nelle RiBa. Se possibile, archiviare il conto bancario"
 
 #. module: l10n_it_ricevute_bancarie
 #: model_terms:ir.ui.view,arch_db:l10n_it_ricevute_bancarie.riba_issue_view
