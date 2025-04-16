@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-08 03:45+0000\n"
-"PO-Revision-Date: 2025-04-15 12:24+0000\n"
+"PO-Revision-Date: 2025-04-16 23:23+0000\n"
 "Last-Translator: BitStab <bitstab@users.noreply.translation.odoo-"
 "community.org>\n"
 "Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
@@ -69,9 +69,8 @@ msgstr "Angehängtes Dokument"
 
 #. module: l10n_it_fatturapa_out
 #: model:ir.model.fields,field_description:l10n_it_fatturapa_out.field_fatturapa_attachment_out__ir_attachment_id
-#, fuzzy
 msgid "Attachment"
-msgstr "Dateianhang"
+msgstr "Anhang"
 
 #. module: l10n_it_fatturapa_out
 #: model:ir.model.fields,field_description:l10n_it_fatturapa_out.field_fatturapa_attachment_out__message_attachment_count
