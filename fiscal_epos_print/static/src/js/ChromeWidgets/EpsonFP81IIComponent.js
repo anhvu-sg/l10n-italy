@@ -134,7 +134,7 @@ odoo.define("fiscal_epos_print.EpsonFP81IIComponent", function (require) {
             });
             if (confirmed) {
                 fp90.printFiscalReprintLast(
-                    this.env.pos.cashier.fiscal_operator_number || "1"
+                    (this.env.pos && this.env.pos.cashier && this.env.pos.cashier.fiscal_operator_number) || "1"
                 );
             } else {
                 // TODO not exist
@@ -167,7 +167,7 @@ odoo.define("fiscal_epos_print.EpsonFP81IIComponent", function (require) {
             if (confirmed) {
                 // Fp90.printFiscalReport();
                 fp90.printFiscalXZReport(
-                    this.env.pos.cashier.fiscal_operator_number || "1"
+                    (this.env.pos && this.env.pos.cashier && this.env.pos.cashier.fiscal_operator_number) || "1"
                 );
             } else {
                 // TODO not exist
@@ -191,7 +191,7 @@ odoo.define("fiscal_epos_print.EpsonFP81IIComponent", function (require) {
             });
             if (confirmed) {
                 fp90.printFiscalXReport(
-                    this.env.pos.cashier.fiscal_operator_number || "1"
+                    (this.env.pos && this.env.pos.cashier && this.env.pos.cashier.fiscal_operator_number) || "1"
                 );
             } else {
                 // TODO not exist
