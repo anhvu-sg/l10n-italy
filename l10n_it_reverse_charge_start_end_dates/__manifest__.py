@@ -1,5 +1,6 @@
 {
-    "name": "Sale Force Invoiced Amount",
+    "name": "ITA - Autofatture e date di competenza",
+    "summary": "Gestione delle date di competenza per le autofatture in reverse charge",
     "version": "16.0.1.0.0",
     "author": "Innovyou, Odoo Community Association (OCA)",
     "category": "Hidden",
